@@ -1,0 +1,47 @@
+mmodel/db fields
+
+### listing
+id:int
+realtor int(foreignkey[realtor])
+title:str
+adddress:str
+city:str
+starte:str
+zipcode:str
+description:text
+price:int
+bedroom:int
+bathroom:int
+squarefeet:int
+lotsize:float
+is_publsihed=bool[true]
+garage:int
+list_date:date
+photo_main:str
+photo_1:str
+photo_1:str
+photo_1:str
+photo_1:str
+photo_1:str
+photo_1:str
+
+###realtors
+id:int
+name:str
+photo:str
+description:text
+email:str
+phone:str
+is_mvp:boolean[0]
+hired_date:date
+
+###contact
+id:int
+user_id:int
+listing:int
+listing_id:int
+name:str
+email:str
+phone:str
+messgae:text
+caontact_date:date
